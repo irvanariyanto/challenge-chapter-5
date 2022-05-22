@@ -1,0 +1,181 @@
+html {
+  background-color: black;
+}
+
+.caret {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border: 10px solid transparent;
+}
+.caret.down {
+  border-top-color: white;
+}
+
+.navbar {
+  opacity: 80%;
+}
+
+header {
+  height: 100vh;
+  background-image: url("img/main-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.header-title {
+  color: white;
+  width: 100%;
+  padding-top: 10%;
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 5rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 3;
+}
+
+.header-detail {
+  color: white;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Bebas Neue", Helvetica, sans-serif;
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  flex: 1;
+  margin-bottom: 3.5625rem;
+}
+
+.play-button {
+  width: 150px;
+}
+
+.games {
+  border: 1px solid transparent;
+  height: 100vh;
+  background-image: url("img/the-games-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.vertical-center {
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.games-info {
+  color: white;
+}
+
+.feature {
+  border: 1px solid transparent;
+  height: 100vh;
+  background-image: url("img/features.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.feature-info {
+  color: white;
+}
+
+.feature-timeline {
+  margin-top: 2rem;
+  color: white;
+}
+
+.feature-timeline-title {
+  color: #ffb548;
+}
+
+.system-requirement {
+  border: 1px solid transparent;
+  height: 100vh;
+  background-image: url("img/requirements\ copy.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.system-requirement > div > h3 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+
+.system-requirement-title {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.top-score {
+  border: 1px solid transparent;
+  height: 100vh;
+  background-image: url("img/top-score-bg-new.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.top-score-info {
+  color: white;
+}
+
+.newsletter {
+  border: 1px solid transparent;
+  height: 100vh;
+  background-image: url("img/top-score-bg-new.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.newsletter-info {
+  color: white;
+}
+
+.newsletter-title {
+}
+
+.card-style {
+  background-color: rgb(241 241 241 / 8%);
+}
+
+.card-name {
+  color: #ffb548;
+}
+
+.card-text {
+  color: white;
+}
+
+.card-img {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+}
+
+footer {
+  background-color: black;
+  height: 15vh;
+  color: white;
+}
+.footer-link > a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1.5rem;
+}
